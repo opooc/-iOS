@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826D45701B8B69F23BDAC49B /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D260B20D9FFCEF0B02C42C53 /* libPods-test.a */; };
+		CB5E4ECC2492239700607083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5E4ECB2492239700607083 /* AppDelegate.m */; };
+		CB5E4ECF2492239700607083 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5E4ECE2492239700607083 /* SceneDelegate.m */; };
+		CB5E4ED22492239700607083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5E4ED12492239700607083 /* ViewController.m */; };
+		CB5E4ED72492239900607083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5E4ED62492239900607083 /* Assets.xcassets */; };
+		CB5E4EDA2492239900607083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5E4ED82492239900607083 /* LaunchScreen.storyboard */; };
+		CB5E4EDD2492239900607083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5E4EDC2492239900607083 /* main.m */; };
+		CB62D43724E598FC007BB581 /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB62D43624E598FC007BB581 /* VideoPlayer.m */; };
+		CB699C9D24DE40C2001AA92A /* opoocDetileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB699C9C24DE40C2001AA92A /* opoocDetileVC.m */; };
+		CB71356E24E302B9000CAAD2 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB71356D24E302B9000CAAD2 /* VideoCell.m */; };
+		CB71357024E30545000CAAD2 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB71356F24E30545000CAAD2 /* icon.bundle */; };
+		CB89482424E02288002B0B9D /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89482324E02288002B0B9D /* ListItem.m */; };
+		CBA5ECD124DE860800B67815 /* DelectCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA5ECD024DE860800B67815 /* DelectCellView.m */; };
+		CBA5ECD424DEB0A300B67815 /* meVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA5ECD324DEB0A300B67815 /* meVc.m */; };
+		CBD639AB24DFAEEA000B228C /* OpoocListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD639AA24DFAEEA000B228C /* OpoocListLoader.m */; };
+		CBFED40724DD39940088880C /* VideoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFED40624DD39940088880C /* VideoVc.m */; };
+		CBFED40A24DD61D30088880C /* PYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFED40924DD61D30088880C /* PYViewController.m */; };
+		CBFED40D24DD7BAA0088880C /* OpoocTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFED40C24DD7BAA0088880C /* OpoocTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEF76F379B7D22FE0A246D04 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
+		CB5E4EC72492239700607083 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5E4ECA2492239700607083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB5E4ECB2492239700607083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB5E4ECD2492239700607083 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CB5E4ECE2492239700607083 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CB5E4ED02492239700607083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB5E4ED12492239700607083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB5E4ED62492239900607083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB5E4ED92492239900607083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB5E4EDB2492239900607083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5E4EDC2492239900607083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB62D43524E598FC007BB581 /* VideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		CB62D43624E598FC007BB581 /* VideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
+		CB699C9B24DE40C2001AA92A /* opoocDetileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opoocDetileVC.h; sourceTree = "<group>"; };
+		CB699C9C24DE40C2001AA92A /* opoocDetileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opoocDetileVC.m; sourceTree = "<group>"; };
+		CB71356C24E302B9000CAAD2 /* VideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		CB71356D24E302B9000CAAD2 /* VideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		CB71356F24E30545000CAAD2 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
+		CB89482224E02288002B0B9D /* ListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
+		CB89482324E02288002B0B9D /* ListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListItem.m; sourceTree = "<group>"; };
+		CBA5ECCF24DE860800B67815 /* DelectCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelectCellView.h; sourceTree = "<group>"; };
+		CBA5ECD024DE860800B67815 /* DelectCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelectCellView.m; sourceTree = "<group>"; };
+		CBA5ECD224DEB0A300B67815 /* meVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = meVc.h; sourceTree = "<group>"; };
+		CBA5ECD324DEB0A300B67815 /* meVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meVc.m; sourceTree = "<group>"; };
+		CBD639A924DFAEEA000B228C /* OpoocListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpoocListLoader.h; sourceTree = "<group>"; };
+		CBD639AA24DFAEEA000B228C /* OpoocListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpoocListLoader.m; sourceTree = "<group>"; };
+		CBFED40524DD39940088880C /* VideoVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoVc.h; sourceTree = "<group>"; };
+		CBFED40624DD39940088880C /* VideoVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoVc.m; sourceTree = "<group>"; };
+		CBFED40824DD61D30088880C /* PYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYViewController.h; sourceTree = "<group>"; };
+		CBFED40924DD61D30088880C /* PYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYViewController.m; sourceTree = "<group>"; };
+		CBFED40B24DD7BAA0088880C /* OpoocTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpoocTableViewCell.h; sourceTree = "<group>"; };
+		CBFED40C24DD7BAA0088880C /* OpoocTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpoocTableViewCell.m; sourceTree = "<group>"; };
+		D260B20D9FFCEF0B02C42C53 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FE0ABE77DA3C5E1A5F0EAF /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5E4EC42492239700607083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826D45701B8B69F23BDAC49B /* libPods-test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABD5B3E36EAB8763F8C4079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D260B20D9FFCEF0B02C42C53 /* libPods-test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB5E4EBE2492239700607083 = {
+			isa = PBXGroup;
+			children = (
+				CB5E4EC92492239700607083 /* test */,
+				CB5E4EC82492239700607083 /* Products */,
+				CCB4AE2CEE2DAAF276204B05 /* Pods */,
+				5ABD5B3E36EAB8763F8C4079 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5E4EC82492239700607083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5E4EC72492239700607083 /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5E4EC92492239700607083 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				CB9EC06E24E3012F004E23B4 /* VideoVC */,
+				CB89481F24E021A9002B0B9D /* NewContreller */,
+				CB5E4ECA2492239700607083 /* AppDelegate.h */,
+				CB5E4ECB2492239700607083 /* AppDelegate.m */,
+				CB5E4ECD2492239700607083 /* SceneDelegate.h */,
+				CB5E4ECE2492239700607083 /* SceneDelegate.m */,
+				CB5E4ED82492239900607083 /* LaunchScreen.storyboard */,
+				CB5E4EDB2492239900607083 /* Info.plist */,
+				CB5E4EDC2492239900607083 /* main.m */,
+				CBFED40824DD61D30088880C /* PYViewController.h */,
+				CBFED40924DD61D30088880C /* PYViewController.m */,
+				CB5E4ED62492239900607083 /* Assets.xcassets */,
+				CBA5ECD224DEB0A300B67815 /* meVc.h */,
+				CBA5ECD324DEB0A300B67815 /* meVc.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		CB71356B24E30278000CAAD2 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				CB71356F24E30545000CAAD2 /* icon.bundle */,
+				CB71356C24E302B9000CAAD2 /* VideoCell.h */,
+				CB71356D24E302B9000CAAD2 /* VideoCell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CB89481D24E02161002B0B9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB89482124E0225F002B0B9D /* ListItem */,
+				CBD639A824DFAEC1000B228C /* loader */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB89481E24E02186002B0B9D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CBFED40B24DD7BAA0088880C /* OpoocTableViewCell.h */,
+				CBFED40C24DD7BAA0088880C /* OpoocTableViewCell.m */,
+				CBA5ECCF24DE860800B67815 /* DelectCellView.h */,
+				CBA5ECD024DE860800B67815 /* DelectCellView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CB89481F24E021A9002B0B9D /* NewContreller */ = {
+			isa = PBXGroup;
+			children = (
+				CB89481D24E02161002B0B9D /* Model */,
+				CB89481E24E02186002B0B9D /* view */,
+				CB89482024E02223002B0B9D /* controller */,
+			);
+			path = NewContreller;
+			sourceTree = "<group>";
+		};
+		CB89482024E02223002B0B9D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB5E4ED02492239700607083 /* ViewController.h */,
+				CB5E4ED12492239700607083 /* ViewController.m */,
+				CB699C9B24DE40C2001AA92A /* opoocDetileVC.h */,
+				CB699C9C24DE40C2001AA92A /* opoocDetileVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CB89482124E0225F002B0B9D /* ListItem */ = {
+			isa = PBXGroup;
+			children = (
+				CB89482224E02288002B0B9D /* ListItem.h */,
+				CB89482324E02288002B0B9D /* ListItem.m */,
+			);
+			path = ListItem;
+			sourceTree = "<group>";
+		};
+		CB9EC06E24E3012F004E23B4 /* VideoVC */ = {
+			isa = PBXGroup;
+			children = (
+				CB71356B24E30278000CAAD2 /* V */,
+				CB9EC06F24E30146004E23B4 /* C */,
+			);
+			path = VideoVC;
+			sourceTree = "<group>";
+		};
+		CB9EC06F24E30146004E23B4 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				CBFED40524DD39940088880C /* VideoVc.h */,
+				CBFED40624DD39940088880C /* VideoVc.m */,
+				CB62D43524E598FC007BB581 /* VideoPlayer.h */,
+				CB62D43624E598FC007BB581 /* VideoPlayer.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		CBD639A824DFAEC1000B228C /* loader */ = {
+			isa = PBXGroup;
+			children = (
+				CBD639A924DFAEEA000B228C /* OpoocListLoader.h */,
+				CBD639AA24DFAEEA000B228C /* OpoocListLoader.m */,
+			);
+			path = loader;
+			sourceTree = "<group>";
+		};
+		CCB4AE2CEE2DAAF276204B05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5FE0ABE77DA3C5E1A5F0EAF /* Pods-test.debug.xcconfig */,
+				AEF76F379B7D22FE0A246D04 /* Pods-test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5E4EC62492239700607083 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5E4EE02492239900607083 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				DC9A9DDD41551D2D5F59ADFC /* [CP] Check Pods Manifest.lock */,
+				CB5E4EC32492239700607083 /* Sources */,
+				CB5E4EC42492239700607083 /* Frameworks */,
+				CB5E4EC52492239700607083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = CB5E4EC72492239700607083 /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5E4EBF2492239700607083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = com.opooc.www;
+				TargetAttributes = {
+					CB5E4EC62492239700607083 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CB5E4EC22492239700607083 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5E4EBE2492239700607083;
+			productRefGroup = CB5E4EC82492239700607083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5E4EC62492239700607083 /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5E4EC52492239700607083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5E4EDA2492239900607083 /* LaunchScreen.storyboard in Resources */,
+				CB5E4ED72492239900607083 /* Assets.xcassets in Resources */,
+				CB71357024E30545000CAAD2 /* icon.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC9A9DDD41551D2D5F59ADFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5E4EC32492239700607083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB71356E24E302B9000CAAD2 /* VideoCell.m in Sources */,
+				CBA5ECD424DEB0A300B67815 /* meVc.m in Sources */,
+				CBD639AB24DFAEEA000B228C /* OpoocListLoader.m in Sources */,
+				CBFED40D24DD7BAA0088880C /* OpoocTableViewCell.m in Sources */,
+				CBA5ECD124DE860800B67815 /* DelectCellView.m in Sources */,
+				CB5E4ED22492239700607083 /* ViewController.m in Sources */,
+				CB699C9D24DE40C2001AA92A /* opoocDetileVC.m in Sources */,
+				CB5E4ECC2492239700607083 /* AppDelegate.m in Sources */,
+				CB62D43724E598FC007BB581 /* VideoPlayer.m in Sources */,
+				CB5E4EDD2492239900607083 /* main.m in Sources */,
+				CB89482424E02288002B0B9D /* ListItem.m in Sources */,
+				CBFED40A24DD61D30088880C /* PYViewController.m in Sources */,
+				CBFED40724DD39940088880C /* VideoVc.m in Sources */,
+				CB5E4ECF2492239700607083 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB5E4ED82492239900607083 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5E4ED92492239900607083 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB5E4EDE2492239900607083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB5E4EDF2492239900607083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB5E4EE12492239900607083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FE0ABE77DA3C5E1A5F0EAF /* Pods-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTQ7WEE79D;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = opooc.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB5E4EE22492239900607083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF76F379B7D22FE0A246D04 /* Pods-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTQ7WEE79D;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = opooc.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5E4EC22492239700607083 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5E4EDE2492239900607083 /* Debug */,
+				CB5E4EDF2492239900607083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5E4EE02492239900607083 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5E4EE12492239900607083 /* Debug */,
+				CB5E4EE22492239900607083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5E4EBF2492239700607083 /* Project object */;
+}
